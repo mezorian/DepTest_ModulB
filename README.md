@@ -1,2 +1,2 @@
-# DepTest_ModulB
+# DepTest_ModuleB
 Dependency Test Module A
