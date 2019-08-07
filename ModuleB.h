@@ -1,8 +1,9 @@
 #ifndef MODULEB_H
 #define MODULEB_H
 
-#include "Logger.h"
+#include "mezorian/DepTest_Logging/Logger.h"
 
+using Logger = logger7::Logger;
 
 class ModuleB {
     public:
