@@ -1,17 +1,21 @@
-#ifndef MODULEB_H
-#define MODULEB_H
+#ifndef ModuleB_H
+#define ModuleB_H
 
 #include "mezorian/DepTest_Logging/Logger.h"
 
-using Logger = logger7::Logger;
+namespace submodule_b {
 
-class ModuleB {
-    public:
-        ModuleB() {}
-        void doSmth(){
-            Logger l;
-            l.log("ModuleB is doing smth");
-        }
-};
+    using Logger = logger10::Logger;
 
-#endif // MODULEB_H
+    class ModuleB {
+        public:
+            ModuleB() {}
+            void doSmth(){
+                Logger l;
+                l.log("ModuleB is doing smth");
+            }
+    };
+
+}
+
+#endif // ModuleB_H
