@@ -5,8 +5,8 @@ Dependency Test - Submodule B
 
 ## Requirements 
 
- 1. Installation of google repo tool
- 2. Installation of qt
+ 1. Installation of qt
+ 2. Installation of python3-pip and gitpython
 
 ## Setup / Clone & Compile 
 
